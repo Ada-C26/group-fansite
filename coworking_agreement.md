@@ -4,22 +4,43 @@ Talk through each section with your partner. Add notes on what you discussed and
 
 ## Accessibility Needs
 *What does each team member need access to in order to succeed and show up the best they can?*
+- Complete the work on time to submit for Monday 11/2 due date and also review each other's code.
+- one person approve is enough for the branch.
+- Rahma: work on seperate branches to avoid "merge conflicts" or us feeling like we are waiting in line to finish our work!
+
 
 ## Collaboration vs. Individual Work Expectations
 *Clarify your collaboration expectations - does your group want to write code together all of the time? Or divide work to do independently, then come together to share accomplishments? What tools and technologies can help your collaboration?*
+- independently but review each other code.
+- Please communicate to the team whenever you want to make changes with 'main
+- Rahma: we don't commit to "main" branch, we instead make changes on seperate branch, make a PR and merge to "main" branch please!
 
+ 
 ## Learning Style
 *How does each team member learn best in project settings?*
+- review, disuses, 
+- communicate plans beforehand
+- Rahma: tickets, messages and PR comments for small decisions and meeting regularly for big design decisions
+- Yan: perfer fisihing reading and then practice with the projects. 
+
 
 ## Preferred Feedback Style
 *How does each team member best receive feedback?*
+- Yan: open to communicaiton on slack or in person(video chat). 
+- Honest and direct feedback on video platform work best for me to avoid misunderstanding.
+- Rahma: PR comments work best for me!
+
 
 ## One Team Communication Skill to Improve
 *What is a teamwork-related skill you want to work on?*
+- Rahma: holding efficent meetings 
+- Yan: In group projects, it’s easy for everyone to dive into their own tasks and lose track of what others are doing. I want to be more proactive about firing off quick updates like 'Hey, I just finished X, moving on to Y next!' so no one ever has to guess where things stand."
+
 
 ## Optional: Other agreements
 *Other co-working agreements that were not captured in the above sections.*
+- None
 
 ## Signatures
-______________ _______________
-Date: _________
+_yan zhao(PST, Seattle Based), Nada Feteiha, Rahma Mahdi(PST, Califoria Based), Angelyn Liem
+Date: 10/26/26
