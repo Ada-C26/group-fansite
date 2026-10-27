@@ -36,3 +36,15 @@
 .gallery-item .source a:hover {
   color: #000000;
 }
+
+nav {
+  padding: 12px 20px;
+  background-color: #c0392b;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
