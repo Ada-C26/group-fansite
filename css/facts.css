@@ -1,0 +1,32 @@
+
+/* Styles only for the Halloween facts page */
+
+main {
+  color: white;
+  text-align: center;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Make the main page title orange */
+main h2 {
+  color: #ffcc80;
+}
+
+/* Give each fact a dark background */
+section {
+  background-color: rgba(30, 15, 35, 0.8);
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 15px;
+  max-width: 800px;
+  border: 1px solid #ffcc80;
+}
+
+/* Make the fact text easy to read */
+section p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
