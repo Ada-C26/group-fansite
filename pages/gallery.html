@@ -1,12 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A fansite celebrating dishes and food traditions from around the world."
+    />
+    <meta name="author" content="Rahma Mahdi" />
+    <meta name="author" content="Yan Zhao" />
+    <meta name="author" content="Nada Feteiha" />
+    <meta name="author" content="Angelyn Liem" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../stylesheets/style.css" rel="stylesheet" />
+    <link href="../stylesheets/gallery.css" rel="stylesheet" />
+    <title>World Cuisines Fansite - Gallery</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="titles">
+          <p class="eyebrow">A fansite for global cuisine</p>
+          <h1>World Cuisine</h1>
+          <p class="tagline">One table, every continent, endless flavor.</p>
+        </div>
+        <img
+          src="../assets/world-cuisine.jpg"
+          alt="Illustrated globe surrounded by plates of shrimp salad, soup, pasta, steak, and spaghetti"
+          class="hero-image"
+        />
+      </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../index.html" >Home</a></li>
+        <li><a href="facts.html">Fun Facts</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="gallery-section" aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading">Food Gallery</h2>
+
+        <div class="gallery-scroll">
+          <figure class="gallery-item">
+            <img
+              src="../assets/spaghetti_carbonara.jpg"
+              alt="A freshly made dish of Spaghetti Carbonara"
+            />
+            <figcaption>
+              <h3>Spaghetti Carbonara</h3>
+              <p>
+                Silky pasta tossed with eggs, pecorino cheese, and crispy pork.
+              </p>
+              <p class="source">
+                Photo by <a href="https://unsplash.com/@fresh_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zoran Borojevic</a> on <a href="https://unsplash.com/photos/pasta-dish-on-white-ceramic-plate--5FECW242og?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="../assets/tom_yum_new.jpg"
+              alt="A hot bowl of Thai Tom Yum soup with shrimp"
+            />
+            <figcaption>
+              <h3>Tom Yum Soup</h3>
+              <p>
+                A spicy and sour Thai broth with lemongrass, lime, and fresh
+                shrimp.
+              </p>
+              <p class="source">
+                Photo by <a href="https://unsplash.com/@jtrinh_artwork?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Trinh</a> on <a href="https://unsplash.com/photos/spicy-shrimp-soup-with-herbs-and-vegetables-_lgT5W2QBG4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="../assets/steak_chimichurri.jpg"
+              alt="Grilled steak topped with fresh green chimichurri sauce"
+            />
+            <figcaption>
+              <h3>Steak with Chimichurri</h3>
+              <p>
+                Flame-grilled beef drizzled with tangy garlic and parsley herb
+                sauce.
+              </p>
+              <p class="source">
+                Photo by <a href="https://unsplash.com/@dedwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Adrian Hoffmann</a> on <a href="https://unsplash.com/photos/a-wooden-table-topped-with-a-metal-bowl-filled-with-vegetables-6Zm0YZ868uU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="../assets/shrimp_ceviche.jpg"
+              alt="Fresh shrimp ceviche served with citrus juice and avocado"
+            />
+            <figcaption>
+              <h3>Shrimp Ceviche</h3>
+              <p>
+                Citrus-cured shrimp with fresh tomatoes, onion, cilantro, and
+                avocado.
+              </p>
+              <p class="source">
+                Photo by <a href="https://unsplash.com/@shiebi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shiebi AL</a> on <a href="https://unsplash.com/photos/a-plate-of-food-sitting-on-top-of-a-wooden-table-SLfPaBh9RxM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></a>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 &middot; Ada Developers Academy Cohort 26</p>
+    </footer>
+  </body>
 </html>
