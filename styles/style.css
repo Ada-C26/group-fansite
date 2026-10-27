@@ -1,0 +1,29 @@
+h1 {
+  color: green;
+  font-family: fantasy;
+}
+
+li {
+  display: inline;
+  margin: 14px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.short-bio {
+  border: solid 1px black;
+  padding: 5em;
+}
+
+footer {
+  color: purple;
+  margin-top: 7em;
+  font-weight: bold;
+}
+
+body {
+  text-align: center;
+}
