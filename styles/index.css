@@ -1,0 +1,161 @@
+/* ---------- Wave 3 - Header (flexbox) ---------- */
+
+/* Wave 2 - Override: white header (instead of the red one in style.css)
+   so the globe picture's white background blends in */
+header {
+  padding: 40px 20px;
+  text-align: left;
+  color: #504f4f;
+  background-color: #ffffff;
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.titles {
+  flex: 1 1 280px;
+}
+
+/* Wave 2 - Override: bigger red title on the home page */
+header h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  color: #c0392b;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+/* Wave 2 - Override: no rounded corners or bottom margin on the big picture */
+.hero-image {
+  flex: 1 1 280px;
+  min-width: 0;
+  width: 100%;
+  max-width: 420px;
+  margin: 0;
+  border-radius: 0;
+}
+
+/* ---------- Wave 3 - Navigation bar (flexbox) ---------- */
+
+/* The nav sits below the header, so it needs its own red bar
+   or the white links would be invisible on the cream page */
+nav {
+  padding: 12px 20px;
+  background-color: #c0392b;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ---------- Intro ---------- */
+.intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+/* ---------- Wave 3 - Recipe cards (grid) ---------- */
+.featured h2,
+.team h2 {
+  text-align: center;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 0 0 40px;
+  padding: 0;
+  list-style: none;
+}
+
+/* each list item stretches to the tallest card in its row */
+.recipe-grid li {
+  display: flex;
+}
+
+.recipe-card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+  border-top: 6px solid #c0392b;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  margin: 0 0 10px;
+  color: #c0392b;
+}
+
+.region {
+  margin: 0 0 5px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.recipe-card a {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #c0392b;
+}
+
+.recipe-card a:hover,
+.recipe-card a:focus {
+  background-color: #962d22;
+}
+
+/* ---------- Wave 3 - Team (flexbox) ---------- */
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team-list li {
+  display: flex;
+  flex: 1 1 160px;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-list span {
+  font-size: 0.9rem;
+}
