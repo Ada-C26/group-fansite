@@ -1,0 +1,27 @@
+.nav-list li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+html {
+    background-color: #8aeae6;
+}
+
+body {
+    margin: 30px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid #000;
+}
