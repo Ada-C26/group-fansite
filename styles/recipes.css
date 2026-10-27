@@ -26,3 +26,10 @@ ol li::marker {
   font-weight: bold;
   color: #d35400;
 }
+
+/* --------------------------------------------------- */
+/* When a recipe is opened from the home page (recipes.html#id),
+   show only that recipe and hide the others */
+main:has(.recipe:target) .recipe:not(:target) {
+  display: none;
+}
