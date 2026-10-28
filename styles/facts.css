@@ -81,11 +81,8 @@ body {
 
 nav a {
     color: #F4E9D8;
-}
-
-nav a {
-  display: inline-block;
-  transition: transform 0.2s ease;
+    display: inline-block;
+    transition: transform 0.2s ease;
 }
 
 nav a:hover{
