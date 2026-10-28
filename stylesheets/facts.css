@@ -1,0 +1,62 @@
+/* ---------- Wave 2 - Styling on the facts page ---------- */
+.site-header,
+nav,
+.site-footer {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url(../images/header_background.jpg) repeat;
+    background-color: #c0392b;
+    background-size:
+        cover,
+        350px auto;
+}
+
+nav {
+    padding: 16px 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* --------------------------------------------------- */
+.card li {
+    list-style-type: "✿ ";
+}
+
+.card li::marker {
+    color: #c0392b;
+}
+
+.region {
+    margin: 0 0 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* ---------- Wave 3 - Layout ---------- */
+.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-header h2 {
+    margin: 0.25rem 0 0;
+}
+
+.card-header > div {
+    width: 12rem;
+}
+
+.map {
+    width:160px;
+    height: auto;
+}
