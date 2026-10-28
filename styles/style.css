@@ -6,40 +6,76 @@
     font-family: "Metal Mania", system-ui;
     font-weight: 400;
     font-style: normal;
-    /* background-color: #3B2460; */
     text-align: center;
+    text-shadow: 2px 2px 6px #D4AF37;
 }
 
 body {
     font-family: "Grenze Gotisch", serif;
     background-color: #1E1233;
     color: #F4E9D8;
+    font-size: 1.25rem;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+main h2 {
+    color: #D3A625;
+    border-bottom: 1px solid #D3A625;
+    padding-bottom: 0.25em;
+}
+
+nav {
+    margin-bottom: 1rem;
 }
 
 nav li {
     display: inline;
-    margin: 14px;
-    color: white;
+    margin: 16px;
 }
 
 nav ul {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    
 }
 
-a{
-    color: white;
-    text-decoration: none;
+nav a {
+    color: #F4E9D8;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+nav a:hover {
+    color: #D3A625;
+    transform: scale(1.2);
+}
+
+nav a[aria-current="page"] {
+    color: #D3A625;
+}
+
+a {
+     text-decoration: none;
 }
 
 header {
-    text-align: center;
+    border-bottom: 2px solid #D3A625;
 } 
 
+header,
 footer {
-    /* background-color: #3B2460; */
+    background-color: #3B2460;
     text-align: center;
-    margin-top: 14em;
 }
