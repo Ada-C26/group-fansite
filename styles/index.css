@@ -1,0 +1,41 @@
+.website-title {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: #3B2460; */
+    text-align: center;
+}
+
+body {
+    font-family: "Grenze Gotisch", serif;
+    background-color: #1E1233;
+    color: #F4E9D8;
+}
+
+nav li {
+    display: inline;
+    margin: 14px;
+    color: white;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+} 
+
+footer {
+    /* background-color: #3B2460; */
+    text-align: center;
+    margin-top: 14em;
+}
