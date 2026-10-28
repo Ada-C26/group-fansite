@@ -5,36 +5,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes</title>
-  <link rel="stylesheet" href="../styles/style.css">
-  <link rel="stylesheet" href="../styles/recipes.css">
+  <title>World Cuisines Fansite - Recipes</title>
+  <link rel="stylesheet" href="../stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/recipes.css">
 </head>
 
 <body>
-  <header>
-    <h1>Food Fansite</h1>
-
-    <!-- navigation -->
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="facts.html">Fun Facts</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="recipes.html" aria-current="page">Recipes</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <h1>Recipes</h1>
   </header>
-  <main>
-    <!-- heading -->
-    <section class="card">
-      <h2>Recipes</h2>
-      <p>Easy dishes you can cook at home, from a quick breakfast to your favorite food.</p>
-    </section>
 
+  <!-- navigation -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="facts.html">Fun Facts</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+    </ul>
+  </nav>
+
+  <main>
     <!-- first recipe -->
     <section class="card recipe" id="shakshuka">
       <h2>Shakshuka</h2>
-      <img src="../assets/shakshuka.jpg" alt="Shakshuka photo">
+      <img src="../images/shakshuka.jpg" alt="Shakshuka photo">
       <p>Eggs gently cooked in a spiced tomato and pepper sauce. Ready in 30 minutes and serves 2–3.</p>
 
       <div class="recipe-details">
@@ -70,7 +65,7 @@
     <!-- koshari recipe -->
     <section class="card recipe" id="koshari">
       <h2>Koshari</h2>
-      <img src="../assets/koshari.jpg" alt="Koshari photo">
+      <img src="../images/koshari.jpg" alt="Koshari photo">
       <p>Egypt's famous street food: rice, lentils, and pasta topped with a tangy tomato sauce and crispy onions. Takes
         about 1 hour and serves 4.</p>
 
@@ -97,7 +92,8 @@
             <li>Fry the sliced onions in oil until dark golden and crispy, then set aside.</li>
             <li>Boil the lentils until almost tender, then add the rice and cook together until done.</li>
             <li>Boil the pasta separately and drain.</li>
-            <li>For the sauce, cook the garlic in a little oil, add the tomato sauce, vinegar, cumin, and salt, and simmer
+            <li>For the sauce, cook the garlic in a little oil, add the tomato sauce, vinegar, cumin, and salt, and
+              simmer
               for 10 minutes.</li>
             <li>Layer rice and lentils, pasta, and chickpeas in a bowl.</li>
             <li>Pour the sauce on top and finish with the crispy onions.</li>
@@ -109,7 +105,7 @@
     <!-- tom yum recipe -->
     <section class="card recipe" id="tom-yum">
       <h2>Tom Yum Soup</h2>
-      <img src="../assets/tom_yum_new.jpg" alt="Tom Yum Soup photo">
+      <img src="../images/tom_yum_new.jpg" alt="Tom Yum Soup photo">
       <p>A hot and sour broth with lemongrass, lime leaves, chili, and shrimp that wakes up every taste bud. Ready in 30
         minutes and serves 4.</p>
 
@@ -147,7 +143,7 @@
     <!-- chimichurri recipe -->
     <section class="card recipe" id="chimichurri">
       <h2>Steak with Chimichurri</h2>
-      <img src="../assets/steak_chimichurri.jpg" alt="Steak with Chimichurri photo">
+      <img src="../images/steak_chimichurri.jpg" alt="Steak with Chimichurri photo">
       <p>Flame-grilled beef topped with a punchy sauce of parsley, garlic, oregano, and red wine vinegar. Ready in 30
         minutes and serves 2.</p>
 
@@ -169,9 +165,11 @@
         <section class="steps">
           <h3>Steps</h3>
           <ol>
-            <li>Mix the parsley, garlic, oregano, pepper flakes, vinegar, and olive oil in a bowl. Season with salt and let
+            <li>Mix the parsley, garlic, oregano, pepper flakes, vinegar, and olive oil in a bowl. Season with salt and
+              let
               it rest.</li>
-            <li>Take the steaks out of the fridge 20 minutes before cooking and season both sides with salt and pepper.</li>
+            <li>Take the steaks out of the fridge 20 minutes before cooking and season both sides with salt and pepper.
+            </li>
             <li>Heat a grill or heavy pan until very hot.</li>
             <li>Cook the steaks for 3–4 minutes per side for medium-rare.</li>
             <li>Let the steaks rest for 5 minutes, then slice them.</li>
@@ -184,7 +182,7 @@
     <!-- ceviche recipe -->
     <section class="card recipe" id="ceviche">
       <h2>Shrimp Ceviche</h2>
-      <img src="../assets/shrimp_ceviche.jpg" alt="Shrimp Ceviche photo">
+      <img src="../images/shrimp_ceviche.jpg" alt="Shrimp Ceviche photo">
       <p>Fresh shrimp "cooked" in lime juice with tomato, onion, cilantro, and avocado. Perfect on a hot day. Ready in
         45 minutes and serves 4.</p>
 
@@ -219,8 +217,8 @@
 
   </main>
 
-  <footer>
-    &copy;2026 Ada Developers Academy Cohort 26
+  <footer class="site-footer">
+    <p>&copy; 2026 &middot; Ada Developers Academy Cohort 26</p>
   </footer>
 
 </body>
