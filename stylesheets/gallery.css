@@ -19,13 +19,6 @@ section {
   text-align: center;
   
 }
-/* Grid layout for gallery images
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    justify-items: center;
-}
 
 /* Gallery images */
 .gallery-grid img {
