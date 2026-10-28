@@ -1,4 +1,17 @@
-/* ---------- Wave 2 - Override on the facts page ---------- */
-ul li::marker {
+/* ---------- Wave 2 - Styling on the facts page ---------- */
+li {
+    list-style-type: "✿ ";
+}
+
+li::marker {
     color: #c0392b;
 }
+
+.region {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+/* ---------- Wave 3 - Layout ---------- */
