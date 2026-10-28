@@ -1,1 +1,4 @@
 /* ---------- Wave 2 - Override on the facts page ---------- */
+ul li::marker {
+    color: #c0392b;
+}
