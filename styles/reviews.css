@@ -1,0 +1,52 @@
+body{
+    margin: 2rem;
+    background-color: #1E1233;
+    /* Overrriding the styles.css body color to a slightly lighter cream color. */
+    color: #F7EFE2;
+}
+
+.website-title {
+    text-shadow: 2px 2px 6px #D4AF37;
+}
+
+.subtitle {
+    color: #D4AF37;
+    text-shadow: 1px 1px 3px #B794F4;
+}
+
+section {
+    background-color: #3B2460;
+    border: solid 1px white;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.rating {
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+nav a {
+    font-size: 1.2rem;
+    color: #B794F4;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #B794F4;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color:#E0D0FF;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+
+
+
+
