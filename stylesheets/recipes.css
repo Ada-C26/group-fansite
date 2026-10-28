@@ -1,15 +1,17 @@
-body > header {
-    color:aliceblue;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
+/* General Page styling */
 body {
     color:ivory;
     font-family: Arial, sans-serif;
 
 }
 
+body > header {
+    color:aliceblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Navigation - Flexbox */
 nav {
     background-color: rgba(229, 176, 139, 0.9);
     padding: 10px;
@@ -22,44 +24,85 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+nav a {
+    text-decoration: none;
+    color: #471e5c;
+    font-weight: bold;
+}
 
+
+/* Main content */
 main {
-    max-width: 1000px; 
+    max-width: 1000px;
     margin: 10px auto 0;
     padding: 0 40px;
 }
 
-main > header {
-    background-color: rgba(30, 3, 47, 0.686);
-    padding: 20px 10px ;
-    margin-top: 0px;
-    border-left: 6px solid #ff7518;
-    border-radius: 8px;
-}
-
-main > header h2 {
-    font-size: large;
-    text-align: center;
-
-}
-
-main section {
+/* Complete recipe box: heading, text and image */
+.recipe-card {
     background-color: rgba(255, 248, 237, 0.96);
     color: #333333;
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    min-width: 0;
 }
 
-figure {
+/* Recipe heading */
+.recipe-header {
+    background-color: rgba(30, 3, 47, 0.9);
+    color: ivory;
+    padding: 20px;
+    margin: 0 0 20px;
+    border-left: 6px solid #ff7518;
+    border-radius: 8px;
     text-align: center;
-    margin: 10px;
+}
+
+.recipe-header h2 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+/* Recipe text on the left, image on the right */
+.recipe-layout {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.recipe-content {
+    min-width: 0;
+}
+
+/* Recipe image */
+.recipe-layout figure {
+    text-align: center;
+    margin: 10px 0;
+    min-width: 0;
+}
+
+.recipe-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.recipe-layout figcaption {
+    margin-top: 8px;
+    font-style: italic;
 }
 
 
@@ -71,3 +114,4 @@ footer {
     margin-top: 40px;
     border-radius: 8px;
 }
+
