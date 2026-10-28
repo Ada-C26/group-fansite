@@ -1,0 +1,28 @@
+.welcome-section {
+padding: 50px 50px 20px 50px
+/* background-color: #f9f9f9; */
+}
+
+.why-we-love-section {
+padding: 10px 50px 20px 50px;
+/* background-color: #f0f0f0; */
+}
+
+.fans-section {
+padding: 10px 50px 20px 50px;
+/* background-color: #f9f9f9; */
+}
+
+.contact-section {
+padding: 10px 50px 30px 50px;
+/* background-color: #f0f0f0; */
+}
+
+h2 {
+    font-style: italic;
+}
+
+.fan-name {
+    font-weight: bold;
+    font-family: fantasy;
+}
