@@ -22,6 +22,10 @@ body {
     margin: 0;
 }
 
+h3 {
+    color: #F3E8D7;
+}
+
 main {
     flex: 1;
 
