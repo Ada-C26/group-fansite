@@ -1,14 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A fansite celebrating dishes and food traditions from around the world." />
-  <meta name="author" content="Rahma Mahdi" />
-  <meta name="author" content="Yan Zhao" />
-  <meta name="author" content="Nada Feteiha" />
-  <meta name="author" content="Angelyn Liem" />
+  <meta name="author" content="Angelyn Liem, Nada Feteiha, Rahma Mahdi, Yan Zhao" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -24,8 +21,18 @@
     <div class="header-inner">
       <div class="titles">
         <p class="eyebrow">A fansite for global cuisine</p>
-        <h1>World Cuisine</h1>
-        <p class="tagline">One table, every continent, endless flavor.</p>
+<h1 class="bounce-title" aria-label="World Cuisines">
+  <span class="bounce-word" aria-hidden="true">
+    <span style="--i:0">W</span>
+    <span style="--i:1">O</span>
+    <span style="--i:2">R</span>
+    <span style="--i:3">L</span>
+    <span style="--i:4">D</span>
+  </span>
+  <span aria-hidden="true">CUISINES</span>
+</h1>
+<!-- </h1> -->
+        <p class="tagline">One table, different continents, endless flavor.</p>
       </div>
       <img src="images/world-cuisine.jpg"
         alt="Illustrated globe surrounded by plates of shrimp salad, soup, pasta, steak, and spaghetti"
@@ -49,14 +56,13 @@
         Food is the easiest way to travel without leaving home. Every dish
         carries a story: the climate it grew up in, the trade routes that
         brought its spices, and the families who passed it down. A bowl of
-        Italian pasta, a plate of grilled steak from the Texas plains, or a
+        Egyptian Koshari, a plate of grilled steak from the Texas-raised beef, or a
         bright shrimp salad from the Mediterranean coast each tells you
         something about the people who first made it.
       </p>
       <p>
         On this site we share the recipes we love, fun facts about where they
-        come from, and a gallery of dishes that make us hungry just looking at
-        them. Grab a fork and dig in.
+        come from, and a gallery of dishes. Grab a fork, spoon, or chopsticks and dig in!
       </p>
     </section>
 
@@ -65,11 +71,10 @@
       <ul class="recipe-grid">
         <li>
           <article class="recipe-card">
-            <p class="region">Italy</p>
-            <h3>Spaghetti Carbonara</h3>
-            <p>Eggs, pecorino, black pepper, and crispy pork tossed with hot pasta into a silky sauce. No cream
-              required.</p>
-            <a href="pages/recipes.html#shakshuka">Get the recipe</a>
+            <p class="region">Egypt</p>
+            <h3>Koushari</h3>
+            <p>A savory mix of rice, pasta, lentils, and chickpeas topped with a tangy tomato sauce and crispy onions.</p>
+            <a href="pages/recipes.html#koshari">Get the recipe</a>
           </article>
         </li>
         <li>
@@ -82,10 +87,10 @@
         </li>
         <li>
           <article class="recipe-card">
-            <p class="region">Argentina</p>
-            <h3>Steak with Chimichurri</h3>
-            <p>Flame-grilled beef topped with a punchy sauce of parsley, garlic, oregano, and red wine vinegar.</p>
-            <a href="pages/recipes.html#chimichurri">Get the recipe</a>
+            <p class="region">Tunisia</p>
+            <h3>Shakshuka</h3>
+            <p>Eggs gently cooked in a spiced tomato and pepper sauce, often served with bread for dipping.</p>
+            <a href="pages/recipes.html#shakshuka">Get the recipe</a>
           </article>
         </li>
         <li>
@@ -99,16 +104,65 @@
       </ul>
     </section>
 
-    <section class="team" aria-labelledby="team-heading">
-      <h2 id="team-heading">Meet the chefs</h2>
-      <ul class="team-list">
-        <li><strong>Chef Angelyn Liem</strong> <span>Home page</span></li>
-        <li><strong>Chef Nada Feteiha</strong> <span>Fun Facts</span></li>
-        <li><strong>Chef Rahma Mahdi</strong> <span>Gallery</span></li>
-        <li><strong>Chef Yan Zhao</strong> <span>Recipes</span></li>
-      </ul>
-    </section>
-  </main>
+<section class="team" aria-labelledby="team-heading">
+  <h2 id="team-heading">Meet the Chefs</h2>
+
+<ul class="team-list">
+  <li>
+    <strong>Chef Angelyn Liem</strong>
+    <span>
+      Crafted Our <a href="pages/gallery.html">Gallery</a>
+    </span>
+    <a class="github-link" href="https://github.com/angelynaliem"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Angelyn Liem's GitHub profile">
+      <img src="images/github-icon.png" alt="" />
+      <span>angelynaliem</span>
+    </a>
+  </li>
+
+  <li>
+    <strong>Chef Rahma Mahdi</strong>
+    <span>
+      Assembled Our <a href="index.html">Home</a>
+    </span>
+    <a class="github-link" href="https://github.com/rahmamahdi25"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Rahma Mahdi's GitHub profile">
+      <img src="images/github-icon.png" alt="" />
+      <span>rahmamahdi25</span>
+    </a>
+  </li>
+
+  <li>
+    <strong>Chef Nada Feteiha</strong>
+    <span>
+      Cooked Up Our <a href="pages/recipes.html">Recipes</a>
+    </span>
+    <a class="github-link" href="https://github.com/NadaFeteiha"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Nada Feteiha's GitHub profile">
+      <img src="images/github-icon.png" alt="" />
+      <span>NadaFeteiha</span>
+    </a>
+  </li>
+
+  <li>
+    <strong>Chef Yan Zhao</strong>
+    <span>
+      Baked Up Our <a href="pages/facts.html">Fun Facts</a>
+    </span>
+    <a class="github-link" href="https://github.com/Snoopy-blue"
+       target="_blank" rel="noopener noreferrer"
+       aria-label="Yan Zhao's GitHub profile">
+      <img src="images/github-icon.png" alt="" />
+      <span>Snoopy-blue</span>
+    </a>
+  </li>
+</ul>
+
+</section>
+</main>
 
   <footer class="site-footer">
     <p>&copy; 2026 &middot; Ada Developers Academy Cohort 26</p>

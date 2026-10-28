@@ -159,3 +159,37 @@ nav ul {
 .team-list span {
   font-size: 0.9rem;
 }
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.github-link img {
+  width: 18px;
+  height: 18px;
+}
+
+.team-list li {
+  text-align: center;
+}
+
+.github-link {
+  display: flex;
+  justify-content: center;
+  margin: 6px 0;
+}
+
+.site-footer {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/header_background.jpg) repeat;
+  background-color: #c0392b;
+  background-size:
+    cover,
+    350px auto;
+}
