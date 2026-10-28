@@ -38,6 +38,9 @@ We will practice presenting and explaining our code together so that both partne
 
 ## Signatures
 
----
+Rayanna Ferreira
+Hardeep Kaur
+Tatsiana Khurs
+Valerie
 
-Date: ****\_****
+Date: 10/26/2026
