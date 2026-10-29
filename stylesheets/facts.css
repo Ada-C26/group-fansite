@@ -1,8 +1,9 @@
 /* ---------- Wave 2 - Styling on the facts page ---------- */
-/* Nav matches the header and footer pattern in style.css */
-nav {
+.site-header,
+nav,
+.site-footer {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
         url(../images/header_background.jpg) repeat;
     background-color: #c0392b;
     background-size:
@@ -12,6 +13,13 @@ nav {
 
 nav {
     padding: 16px 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* --------------------------------------------------- */

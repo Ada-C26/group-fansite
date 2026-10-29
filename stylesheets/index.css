@@ -297,13 +297,10 @@ main section {
 /* ---------- Footer ---------- */
 
 .site-footer {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/header_background.jpg) repeat;
-
-  background-size:
-    cover,
-    350px auto;
+    background: #1f7fc4;
+    background-size:
+        cover,
+        350px auto;
 }
 
 .site-footer p {
