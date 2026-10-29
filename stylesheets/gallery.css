@@ -1,24 +1,20 @@
 
-
-/* Gallery page header */
+/* Styles for gallery page */
 header {
     text-align: center;
     color: #ffcc80;
 }
 
-
-/* Main content */
 main {
     color: white;
     text-align: center;
 }
 
-/* Main heading */
 main h2 {
     color: #ffcc80;
 }
 
-/* Gallery section container */
+/* styles blocks for gallery page. used grid */
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -33,39 +29,35 @@ section {
     max-width: 1100px;
 }
 
-/* Section headings and descriptions span all grid columns */
 section h2,
 section p {
     grid-column: 1 / -1;
 }
 
-/* Spacing around each gallery item */
 figure {
     margin: 10px;
 }
 
-/* Gallery images */
 figure img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-/* Captions below images */
 figcaption {
     margin-top: 10px;
     color: white;
     text-align: center;
 }
 
-/* Footer text */
+/* Footer styles */
 footer {
     text-align: center;
     color: white;
     font-size: 20px;
 }
 
-/* Image credit text */
+/* Create class image credit for footer */
 .image-credit {
     font-size: 12px;
     text-align: center;
