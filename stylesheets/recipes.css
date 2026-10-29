@@ -1,25 +1,25 @@
 
 /* General page styling */
 body {
-    color: ivory;
-    font-family: Arial, sans-serif;
+    color:ivory;
+    
+
 }
 
 /* Main page header (not the individual recipe headers) */
 body > header {
-    color: aliceblue;
-    font-family: Arial, sans-serif;
+    color:#ffcc80;
     text-align: center;
 }
 
-/* Navigation styles are defined in the shared style.css file.
-   This keeps navigation consistent across all pages. */
+
 
 /* Main content container */
 main {
     max-width: 1000px;
     margin: 10px auto 0;
-    padding: 0 40px;
+    font-family: Arial, Helvetica;
+    
 }
 
 /* Complete recipe card: heading, text, and image */
@@ -30,7 +30,7 @@ main {
     margin-bottom: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    min-width: 0;
+    
 }
 
 /* Heading area for each recipe */
@@ -48,6 +48,7 @@ main {
 .recipe-header h2 {
     font-size: 1.4rem;
     margin: 0;
+    
 }
 
 /* Place recipe text on the left and image on the right */
