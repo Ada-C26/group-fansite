@@ -1,8 +1,13 @@
 /*Gallery Page Specific Styles */
 
 /* 1. Gallery headings */
+h2 {
+  text-align: left;
+}
+
 h3 {
   color: #d92c16eb;
+  text-align: center;
   border: 3px double #c9a227;
   border-radius: 10px;
   padding: 12px 25px;
