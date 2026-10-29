@@ -43,6 +43,6 @@ tbody tr:nth-child(4) th {
     color: #2A9D5C;
 }
 
-h3{
-    font-size: 1.6em;
+main h2 {
+  padding-bottom: 0.4em;
 }
