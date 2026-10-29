@@ -16,12 +16,7 @@ body {
 /* Shared navigation container */
 nav {
     background-color: rgba(255, 240, 225, 0.9);
-    padding: 12px 20px;
-    margin: 15px auto;
-    border: 1px solid #ffcc80;
-    border-radius: 12px;
-    max-width: 1000px;
-    box-sizing: border-box;
+
 }
 
 /* Arrange navigation links in a centered, responsive row */
