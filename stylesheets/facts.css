@@ -32,3 +32,9 @@ section p {
     font-size: 18px;
     line-height: 1.6;
 }
+
+
+/* Override the shared header text color on the facts page */
+header {
+    color: #ffcc80;
+}
