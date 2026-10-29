@@ -102,13 +102,13 @@
   .welcome {
     padding-block: 44px;
   }
-  .site-nav {
-    gap: 4px;
-  }
-  .site-nav a {
-    padding-inline: 10px;
-  }
+
   .idea-card {
     padding: 24px;
   }
+}
+.home-page .site-footer {
+  width: min(1120px, 90%);
+  margin-left: auto;
+  margin-right: auto;
 }
