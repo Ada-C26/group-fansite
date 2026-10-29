@@ -107,6 +107,9 @@ main,
   }
 }
 
+.facts-page {
+  line-height: 1.8;
+}
 .fun-facts {
   padding-block: 48px;
 }
