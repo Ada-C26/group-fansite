@@ -1,51 +1,28 @@
-/* General Page styling */
+
+/* General page styling */
 body {
-    color:ivory;
+    color: ivory;
     font-family: Arial, sans-serif;
-
 }
 
+/* Main page header (not the individual recipe headers) */
 body > header {
-    color:aliceblue;
+    color: aliceblue;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
-/* Navigation - Flexbox */
-nav {
-    background-color: rgba(229, 176, 139, 0.9);
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 7px auto;
-}
+/* Navigation styles are defined in the shared style.css file.
+   This keeps navigation consistent across all pages. */
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #471e5c;
-    font-weight: bold;
-}
-
-
-/* Main content */
+/* Main content container */
 main {
     max-width: 1000px;
     margin: 10px auto 0;
     padding: 0 40px;
 }
 
-/* Complete recipe box: heading, text and image */
+/* Complete recipe card: heading, text, and image */
 .recipe-card {
     background-color: rgba(255, 248, 237, 0.96);
     color: #333333;
@@ -56,7 +33,7 @@ main {
     min-width: 0;
 }
 
-/* Recipe heading */
+/* Heading area for each recipe */
 .recipe-header {
     background-color: rgba(30, 3, 47, 0.9);
     color: ivory;
@@ -67,12 +44,13 @@ main {
     text-align: center;
 }
 
+/* Recipe title */
 .recipe-header h2 {
     font-size: 1.4rem;
     margin: 0;
 }
 
-/* Recipe text on the left, image on the right */
+/* Place recipe text on the left and image on the right */
 .recipe-layout {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -80,17 +58,19 @@ main {
     align-items: start;
 }
 
+/* Allow recipe text to shrink inside the grid */
 .recipe-content {
     min-width: 0;
 }
 
-/* Recipe image */
+/* Recipe image container */
 .recipe-layout figure {
     text-align: center;
     margin: 10px 0;
     min-width: 0;
 }
 
+/* Recipe image */
 .recipe-image {
     display: block;
     width: 100%;
@@ -100,12 +80,13 @@ main {
     border-radius: 8px;
 }
 
+/* Caption below the recipe image */
 .recipe-layout figcaption {
     margin-top: 8px;
     font-style: italic;
 }
 
-
+/* Page footer */
 footer {
     background-color: rgba(36, 16, 47, 0.95);
     color: white;

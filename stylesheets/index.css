@@ -1,3 +1,5 @@
+
+/* Home page layout */
 body {
     min-height: 100vh;
     margin: 0;
@@ -5,6 +7,7 @@ body {
     flex-direction: column;
 }
 
+/* Home page header */
 header {
     text-align: center;
     color: #ffcc80;
@@ -12,23 +15,10 @@ header {
     background-color: rgba(30, 15, 35, 0.8);
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    list-style: none;
-    padding: 12px;
-    background-color: rgba(255, 240, 225, 0.75);
-    border-radius: 8px;
-}
-nav a {
-    color: #301523;
-    font-size: 18px;
-    font-weight: bold;
-}
+/* Navigation styles are in the shared style.css file.
+   This keeps navigation consistent across all pages. */
 
+/* Main content container */
 main {
     max-width: 800px;
     margin: 50px auto;
@@ -42,15 +32,18 @@ main {
     box-sizing: border-box;
 }
 
+/* Main heading */
 main h2 {
     color: #ffcc80;
 }
 
+/* Paragraph text inside the main content */
 main p {
     font-size: 18px;
     line-height: 1.6;
 }
 
+/* Footer stays at the bottom when the page has little content */
 footer {
     text-align: center;
     color: white;

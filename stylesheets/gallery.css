@@ -1,69 +1,70 @@
+
+/* Gallery page header */
 header {
     text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  background-color: rgba(255, 240, 225, 0.75);
-  padding: 12px;
-  border-radius: 8px;
-}
-
+/* Main content */
 main {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
+/* Main heading */
 main h2 {
-  color: #ffcc80;
+    color: #ffcc80;
 }
 
+/* Gallery section container */
 section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
 
-  background-color: rgba(30, 15, 35, 0.8);
-  padding: 20px;
-  margin: 30px auto;
-  border-radius: 15px;
-  border: 1px solid #ffcc80;
-  max-width: 1100px;
+    background-color: rgba(30, 15, 35, 0.8);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 1px solid #ffcc80;
+    max-width: 1100px;
 }
 
+/* Section headings and descriptions span all grid columns */
 section h2,
 section p {
-  grid-column: 1 / -1;
+    grid-column: 1 / -1;
 }
 
+/* Spacing around each gallery item */
 figure {
-  margin: 10px;
+    margin: 10px;
 }
 
+/* Gallery images */
 figure img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
+/* Captions below images */
 figcaption {
-  margin-top: 10px;
-  color: white;
-  text-align: center;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
 }
 
+/* Footer text */
 footer {
     text-align: center;
     color: white;
     font-size: 20px;
 }
 
+/* Image credit text */
 .image-credit {
-  font-size: 12px;
-  text-align: center;
-  color: white;
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
