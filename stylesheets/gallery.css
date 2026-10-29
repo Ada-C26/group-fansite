@@ -1,22 +1,14 @@
 /*Gallery Page Specific Styles */
 
 /* 1. Gallery headings */
-h2 {
-  font-size: 28px;
-  text-align: left;
-}
-
 h3 {
   color: #d92c16eb;
-  font-size: 26px;
-  text-align: center;
   border: 3px double #c9a227;
   border-radius: 10px;
   padding: 12px 25px;
   margin: 20px auto;
   background-color:lightblue;
   width: fit-content;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* 2. Gallery sections */
@@ -24,8 +16,7 @@ section {
   padding: 15px;
   margin: 20px auto;
   max-width: 1000px;
-  text-align: center;
-  
+  text-align: center; 
 }
 
 section img {
