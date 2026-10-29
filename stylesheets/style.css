@@ -4,6 +4,15 @@ body {
   line-height: 1.6;
   color: #504f4f;
   background-color: #fff8f0;
+
+/* Whisk cursor: "32 20" refences the hotspot (the tip of the whisk). */
+  cursor: url("../images/whisk.png") 36 20, auto;
+}
+
+/* Keep the whisk on links and buttons instead of the default pointing hand */
+a,
+button {
+  cursor: url("../images/whisk.png") 36 20, pointer;
 }
 
 /* header and navigation */
