@@ -14,7 +14,7 @@ body {
     font-family: "Grenze Gotisch", serif;
     background-color: #1E1233;
     color: #F4E9D8;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 
     min-height: 100vh;
     display: flex;
@@ -78,4 +78,8 @@ header,
 footer {
     background-color: #3B2460;
     text-align: center;
+}
+
+footer{
+    border-top: 2px solid #D3A625;
 }

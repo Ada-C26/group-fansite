@@ -1,11 +1,17 @@
 .intro {
-    text-align: center;
+    text-align: left;
+    font-size: 1.2em;
 }
 
 a {
     color: #c9a0ff;
+    text-decoration: underline;
 }
 
 section {
     margin: 30px;
+}
+
+p {
+    font-size: 1.1em;
 }
