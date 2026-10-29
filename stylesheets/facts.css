@@ -38,3 +38,8 @@ section p {
 header {
     color: #ffcc80;
 }
+
+/* Center the page title */
+header {
+    text-align: center;
+}
