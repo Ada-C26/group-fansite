@@ -1,65 +1,54 @@
-/* Gallery Page Specific Styles */
+/*Gallery Page Specific Styles */
 
-/* 1. Override the generic body background color */
-body {
-  background-color: #170d37e6;
-}
-
-/* 2. Gallery headings */
+/* 1. Gallery headings */
 h2 {
-  color: #6ccbe1;
-  font-size: 32px;
+  font-size: 28px;
+  text-align: left;
 }
 
 h3 {
-  color: #f4d8df;
+  color: #d92c16eb;
   font-size: 26px;
+  text-align: center;
+  border: 3px double #c9a227;
+  border-radius: 10px;
+  padding: 12px 25px;
+  margin: 20px auto;
+  background-color:lightblue;
+  width: fit-content;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 3. Gallery sections */
+/* 2. Gallery sections */
 section {
-  /* background-color: #243c60;   */
   padding: 15px;
   margin: 20px auto;
   max-width: 1000px;
+  text-align: center;
+  
 }
 
-/* 4. Gallery images */
 section img {
   display: inline-block;
   width: 100%;
   height: 100%;
   object-fit: scale-down;
   margin: 10px;
-  border: none;
+  border: double lightgoldenrodyellow;
   border-radius: 8px;
 }
 
-/* Center all images */
-section {
-  text-align: center;
+/* 3. Gallery images */
+.gallery-grid img {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
-/* 5. Image hover effect */
-section img:hover {
-  transform: scale(1.08);
-}
-
-/* 6. Gallery navigation hover */
-nav a:hover {
-  color: #b8ca1b;
-  text-decoration: underline;
-}
-
-/* 7. Gallery footer */
-footer {
-  margin-top: 40px;
-  padding: 20px;
-}
-
-/* 8. Gallery image captions */
-figcaption {
-  color: #4b0969;
-  font-size: 12px;
-  margin-top: 8px;
-}
+/* Image hover effect */
+.gallery-grid img:hover {
+    transform: scale(1.5);
+} 
