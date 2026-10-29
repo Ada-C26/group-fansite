@@ -4,10 +4,15 @@ main {
 
 /* Quick Rules list */
 
-.quick-rules {
-    text-align: center;
-}
 
+.quick-rules ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items:unset;
+    justify-content: space-around;
+    width: 100%;
+}
 .quick-rules ul {
     list-style: none;
     padding-left: 0;
@@ -27,7 +32,7 @@ main {
     border-radius: 12px;
     padding: 0px;
     margin: 24px auto;
-    max-width: 400px;
+    max-width: 1000px;
 }
 
 
