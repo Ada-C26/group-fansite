@@ -81,3 +81,7 @@ nav ul {
     cover,
     350px auto;
 }
+
+main {
+  min-height: 70vh;
+}
