@@ -1,25 +1,13 @@
-/* ---------- Wave 2 - Styling on the facts page ---------- */
+/* ---------- Wave 2 - Styling overrides on the facts page ---------- */
 .site-header,
-nav,
 .site-footer {
-    background:
+    background-image:
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url(../images/header_background.jpg) repeat;
-    background-color: #c0392b;
-    background-size:
-        cover,
-        350px auto;
+        url(../images/header_background.jpg);
 }
 
-nav {
-    padding: 16px 20px;
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+.site-header h1{
+    margin-bottom:42px;
 }
 
 /* --------------------------------------------------- */
@@ -57,6 +45,6 @@ nav ul {
 }
 
 .map {
-    width:160px;
+    width: 160px;
     height: auto;
 }
