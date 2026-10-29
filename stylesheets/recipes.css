@@ -1,0 +1,82 @@
+body {
+    color:ivory;
+}
+
+body > header {
+    color:#ffcc80;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 10px auto 0;
+    font-family: Arial, Helvetica;
+    
+}
+
+.recipe-card {
+    background-color: rgba(255, 248, 237, 0.96);
+    color: #333333;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    
+}
+
+.recipe-header {
+    background-color: rgba(30, 3, 47, 0.9);
+    color: ivory;
+    padding: 20px;
+    margin: 0 0 20px;
+    border-left: 6px solid #ff7518;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.recipe-header h2 {
+    font-size: 1.4rem;
+    margin: 0;
+    
+}
+
+.recipe-layout {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.recipe-content {
+    min-width: 0;
+}
+
+.recipe-layout figure {
+    text-align: center;
+    margin: 10px 0;
+    min-width: 0;
+}
+
+.recipe-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.recipe-layout figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+footer {
+    background-color: rgba(36, 16, 47, 0.95);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+

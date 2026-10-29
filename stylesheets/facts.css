@@ -1,0 +1,45 @@
+
+/* Styles only for the Halloween facts page */
+
+
+/* Main content layout and text */
+main {
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Highlight section headings */
+main h2 {
+    color: #ffcc80;
+}
+
+/* Individual fact containers */
+section {
+    background-color: rgba(30, 15, 35, 0.8);
+    padding: 20px;
+    margin: 25px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    border: 1px solid #ffcc80;
+}
+
+/* Improve readability of fact descriptions */
+section p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Override the shared header text color on the facts page */
+header {
+    color: #ffcc80;
+}
+
+/* Center the page title */
+header {
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+
+/* Home page layout */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Home page header */
+header {
+    text-align: center;
+    color: #ffcc80;
+    padding-top: 20px;
+    background-color: rgba(30, 15, 35, 0.8);
+}
+
+/* Navigation styles are in the shared style.css file.
+   This keeps navigation consistent across all pages. */
+
+/* Main content container */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgba(30, 15, 35, 0.8);
+    border: 1px solid #ffcc80;
+    border-radius: 15px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+/* Main heading */
+main h2 {
+    color: #ffcc80;
+}
+
+/* Paragraph text inside the main content */
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer stays at the bottom when the page has little content */
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(30, 15, 35, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: auto;
+}
