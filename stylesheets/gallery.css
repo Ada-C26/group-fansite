@@ -26,13 +26,6 @@ nav {
   padding: 16px 20px;
 }
 
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
 .gallery-scroll {
   display: flex;
   gap: 1.5rem;
