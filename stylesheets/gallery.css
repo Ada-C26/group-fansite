@@ -2,13 +2,11 @@
 
 /* 1. Gallery headings */
 h2 {
-  font-size: 28px;
   text-align: left;
 }
 
 h3 {
   color: #d92c16eb;
-  font-size: 26px;
   text-align: center;
   border: 3px double #c9a227;
   border-radius: 10px;
