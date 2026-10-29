@@ -1,6 +1,7 @@
 /* Overriding the h3 element color from style.css */
 h3 {
     color: #E0D0FF;
+    margin-bottom: 0;
 }
 
 .reviews-container {
