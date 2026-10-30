@@ -1,4 +1,4 @@
-.site-header {
+.site-header, nav, .site-footer {
   background:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/header_background.jpg) repeat;
@@ -8,34 +8,32 @@
     350px auto;
 
   background-color: #c0392b;
+}
+
+.site-header {
 
   color: #ffffff;
   text-align: center;
 }
 
 nav {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/header_background.jpg) repeat;
-
-  background-color: #c0392b;
-
-  background-size:
-    cover,
-    350px auto;
   padding: 16px 20px;
 }
 
 .gallery-scroll {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   padding-bottom: 1rem;
+  width: 100%;
+  overflow-x: auto;
 }
 
 .gallery-item {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex: 0 0 250px;
 }
 
 .gallery-item img {
@@ -57,22 +55,11 @@ nav {
 }
 
 .gallery-item .source a {
-  color: inherit;
   text-decoration: underline;
 }
 
 .gallery-item .source a:hover {
-  color: #000000;
-}
-
-.site-footer {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/header_background.jpg) repeat;
-
-  background-size:
-    cover,
-    350px auto;
+  color: #c0392b;
 }
 
 main {
