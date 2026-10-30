@@ -31,6 +31,10 @@ section img {
     border-radius: 8px;
 }
 
+.gallery-grid {
+    display: grid;
+}
+
 /* 3. Gallery images */
 .gallery-grid img {
     width: 100%;
@@ -43,5 +47,14 @@ section img {
 
 /* Image hover effect */
 .gallery-grid img:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
 } 
+
+.gallery-grid figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(180, 162, 192, 0.2);
+}
+a {
+    color: #E0D0FF;
+    text-decoration: underline;
+}
