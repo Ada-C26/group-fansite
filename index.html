@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
 
-  <body>
-    <header>
+  <body class="container">
+    <header class="header">
       <h1>Smash | The Ultimate Badminton Fansite</h1>
-
-      <nav>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/gallery.html">Gallery</a></li>
-          <li><a href="pages/facts.html">Fun Facts</a></li>
-          <li><a href="pages/rules.html">Rules</a></li>
-        </ul>
-      </nav>
     </header>
 
-    <main>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+        <li><a href="pages/facts.html">Fun Facts</a></li>
+        <li><a href="pages/rules.html">Rules</a></li>
+      </ul>
+    </nav>
+
+
+    <main class="main">
       <section class="welcome-section">
         <h2>Welcome to Smash!</h2>
         <p>
@@ -33,7 +34,6 @@
 
       <section class="why-we-love-section">
         <h2>Why We Love Badminton?</h2>
-        <div>
           <article>
             <h3>Global Popularity</h3>
             <p>
@@ -52,7 +52,6 @@
               It's not just about hitting hard. It's high-speed chess on a court, requiring deep strategy, endurance, and precise drop shots.
             </p>
           </article>
-        </div>
       </section>
 
       <section class="fans-section">
@@ -60,16 +59,25 @@
         <p>
           We are a passionate group of developers and badminton enthusiasts who wanted to build a space to celebrate the sport we love.
         </p>
-        <ul>
-          <li ><strong class="fan-name">Amelia Reese</strong> - Lead Developer & Racket Enthusiast</li>
-          <li><strong class="fan-name">Daihuizi Zhu</strong> - Content Strategist & Smash Specialist</li>
-          <li><strong class="fan-name">Jie Yang</strong> - UI/UX Designer & Net Play Pro</li>
-          <li><strong class="fan-name">Shameka Edwards</strong> - Backend Logic & Tournament Guru</li>
+        <ul class="fans-list">
+          <li><img src="images/fan_1.jpeg" alt="Amelia Reese">
+            <p class="fan-name">Amelia Reese</p>
+            <p>Lead Developer & Racket Enthusiast</p></li>
+          <li><img src="images/fan_2.jpeg" alt="Daihuizi Zhu">
+            <p class="fan-name">Daihuizi Zhu</p>
+            <p>Content Strategist & Smash Specialist</p></li>
+          <li><img src="images/fan_3.jpeg" alt="Jie Yang">
+            <p class="fan-name">Jie Yang</p>
+            <p>UI/UX Designer & Net Play Pro</p></li>
+          <li><img src="images/fan_4.jpeg" alt="Shameka Edwards">
+            <p class="fan-name">Shameka Edwards</p>
+            <p>Backend Logic & Tournament Guru</p></li>
         </ul>
         <p>
           Connect with fellow badminton enthusiasts, share your experiences, and be part of our vibrant community. Whether you're looking for tips, want to organize local matches, or just want to chat about the sport, Smash is the place to be.
         </p>
       </section>
+      
       <section class="contact-section">
         <h2>Contact Us</h2>
         <p>
@@ -78,7 +86,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <p>&copy;2026 Smash. Built with passion, code, and a lot of shuttlecocks.</p>
     </footer>
   </body>
