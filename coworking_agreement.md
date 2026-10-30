@@ -41,6 +41,6 @@ We will practice presenting and explaining our code together so that both partne
 Rayanna Ferreira
 Hardeep Kaur
 Tatsiana Khurs
-Valerie
+Valerie Chon
 
 Date: 10/26/2026
