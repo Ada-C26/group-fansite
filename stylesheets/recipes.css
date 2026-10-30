@@ -1,5 +1,5 @@
-/* Header, nav, and footer match the gallery page:
-   food pattern with a dark overlay (instead of the plain red/gray in style.css) */
+/* Override: food pattern with a red overlay on the header, nav, and footer
+   (instead of the dark overlay in style.css) */
 .site-header,
 nav,
 .site-footer {
@@ -10,17 +10,11 @@ nav,
   background-size:
     cover,
     350px auto;
+  background-attachment: fixed;
 }
 
 nav {
   padding: 16px 20px;
-}
-
-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
 }
 
 /* --------------------------------------------------- */
