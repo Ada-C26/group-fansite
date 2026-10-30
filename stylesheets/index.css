@@ -1,0 +1,308 @@
+/* ---------- Global box sizing ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Body and typography ---------- */
+
+body {
+  margin: 0;
+  background-color: #fffaf2;
+  color: #2b2b2b;
+  font-family: 'Comic Sans MS', "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", Georgia, serif;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+h2 {
+  color: #1f7fc4;
+  font-size: 1.8rem;
+}
+
+/* ---------- Images and links ---------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #a52a1c;
+}
+
+a:hover,
+a:focus {
+  color: #a52a1c;
+}
+
+/* ---------- Header ---------- */
+
+/* Wave 2 - Override: light blue gradient header, left-aligned */
+
+.site-header {
+  text-align: left;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(135deg, #cfe8f7, #fffaf2);
+}
+
+/* Wave 2 - Override: bigger title on the home page */
+
+.site-header h1 {
+  color: #a52a1c;
+  font-size: clamp(2.6rem, 7vw, 4.5rem);
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+/* Wave 3 - Header (flexbox): titles and hero image side by side */
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.titles {
+  flex: 1 1 280px;
+}
+
+.small-title {
+  margin: 0 0 0.5rem;
+  color: #27ae60;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tagline {
+  margin: 0;
+  color: #5e5e5e;
+  font-size: 1.2rem;
+}
+
+.hero-image {
+  flex: 1 1 280px;
+  min-width: 0;
+  width: 100%;
+  max-width: 460px;
+  mix-blend-mode: multiply; /* lets the image's white background blend into the header */
+}
+
+/* ---------- Wave 3 - Bouncing title animation ---------- */
+
+.bounce-title .bounce-word {
+  display: inline-flex;
+  white-space: nowrap;
+}
+
+.bounce-title .bounce-word span {
+  display: inline-block;
+  animation: bounce 2.3s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 0.12s);
+}
+
+@keyframes bounce {
+  0%, 75%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  25% {
+    transform: translateY(-0.15em);
+    opacity: 0.5;
+  }
+}
+
+/* Turn the animation off for visitors who prefer reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .bounce-title .bounce-word span {
+    animation: none;
+  }
+}
+
+/* ---------- Wave 3 - Navigation (flexbox) ---------- */
+
+.site-nav {
+  background-color: #1f7fc4;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0.75rem 1rem;
+}
+
+.site-nav a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a[aria-current="page"] {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: #ffffff;
+  color: #a52a1c;
+}
+
+/* ---------- Main ---------- */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+main section {
+  margin-bottom: 3rem;
+}
+
+/* ---------- Intro ---------- */
+
+.intro {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.featured h2,
+.team h2 {
+  text-align: center;
+}
+
+/* ---------- Wave 3 - Recipe cards (grid) ---------- */
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wave 3: Flexbox inside each grid item */
+
+.recipe-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border: 4px solid #1f7fc4;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.recipe-card .region {
+  margin: 0 0 0.25rem;
+  color: #27ae60;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.recipe-card h3 {
+  color: #a52a1c;
+  font-size: 1.35rem;
+  font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+.recipe-card a {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: #c0392b;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.recipe-card a:hover,
+.recipe-card a:focus {
+  background-color: #a52a1c;
+  color: #ffffff;
+}
+
+/* ---------- Wave 3 - Our Team (flexbox) ---------- */
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-list li {
+  flex: 0 1 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: #cfe8f7;
+  text-align: center;
+}
+
+.team-list span {
+  color: #5e5e5e;
+  font-size: 0.9rem;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github-link img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  position: relative;
+  top: 7px;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+    background: #1f7fc4;
+    background-size:
+        cover,
+        350px auto;
+}
+
+.site-footer p {
+  margin: 0;
+}
