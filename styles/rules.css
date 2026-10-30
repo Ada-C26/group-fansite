@@ -1,0 +1,60 @@
+main {
+    margin-top: 50px;
+}
+
+/* Quick Rules list */
+
+
+.quick-rules ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items:unset;
+    justify-content: space-around;
+    width: 100%;
+}
+.quick-rules ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-rules li {
+    margin-bottom: 12px;
+}
+
+.quick-rules li::before {
+    content: "🏸 ";
+}
+
+.quick-rules {
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 12px;
+    padding: 0px;
+    margin: 24px auto;
+    max-width: 1000px;
+}
+
+
+.contact-us {
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.contact-us h2 {
+    font-size: 1.2rem;
+}
+
+.contact-us h2::before {
+    content: "🏸 ";
+}
+
+.contact-us h2::after {
+    content: " 🏸";
+}
+
+.contact-us p {
+    font-size: 0.9rem;
+}
