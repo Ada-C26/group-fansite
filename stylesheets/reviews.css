@@ -1,6 +1,7 @@
 /* Overriding the h3 element color from style.css */
 h3 {
     color: #E0D0FF;
+    margin-bottom: 0;
 }
 
 .reviews-container {
@@ -10,7 +11,7 @@ h3 {
     margin-bottom: 2rem;
 }
 
-.reviews-container section {
+section {
     flex: 1 1 40%;
     box-sizing: border-box;
 
