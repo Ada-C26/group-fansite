@@ -1,0 +1,48 @@
+main h2 {
+    color: #D3A625;
+    border-bottom: 1px solid #D3A625;
+    padding-bottom: 0.25em;
+}
+
+table {
+    width: 100%;
+    background-color: #3B2460;
+}
+
+th,
+td {
+    border: 1px solid #D3A625;
+    padding: 0.5em;
+    text-align: left;
+}
+
+thead th {
+    background-color: #1E1233;
+    color: #D3A625;
+    font-size: 1.2em;
+    border-bottom: 3px solid #D3A625;
+}
+
+/* Gryffindor */
+tbody tr:nth-child(1) th {
+    color: #AE0001;
+}
+
+/* Hufflepuff */
+tbody tr:nth-child(2) th {
+    color: #FFDB00;
+}
+
+/* Ravenclaw */
+tbody tr:nth-child(3) th {
+    color: #6E8FD4;
+}
+
+/* Slytherin */
+tbody tr:nth-child(4) th {
+    color: #2A9D5C;
+}
+
+main h2 {
+  padding-bottom: 0.4em;
+}
