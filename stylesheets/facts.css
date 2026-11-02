@@ -1,0 +1,50 @@
+/* ---------- Wave 2 - Styling overrides on the facts page ---------- */
+.site-header,
+.site-footer {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url(../images/header_background.jpg);
+}
+
+.site-header h1{
+    margin-bottom:46px;
+}
+
+/* --------------------------------------------------- */
+.card li {
+    list-style-type: "✿ ";
+}
+
+.card li::marker {
+    color: #c0392b;
+}
+
+.region {
+    margin: 0 0 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+/* ---------- Wave 3 - Layout ---------- */
+.card-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-header h2 {
+    margin: 0.25rem 0 0;
+}
+
+.card-header > div {
+    width: 12rem;
+}
+
+.map {
+    width: 160px;
+    height: auto;
+}
