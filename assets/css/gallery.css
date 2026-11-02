@@ -1,0 +1,62 @@
+/* gallery.css */
+article > header > h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #243870;
+}
+
+.gallery-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.gallery-grid figure {
+    flex: 0 0 300px;
+    scroll-snap-align: start;
+}
+
+.gallery-grid figcaption {
+    font-size: .85rem;
+    text-align: center;
+    padding: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-grid figure:hover figcaption {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media screen and (max-width: 768px) {
+    .gallery-grid {
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .gallery-grid figure {
+        flex: 1;
+    }
+    
+    .gallery-grid figcaption {
+        opacity: 1;
+        visibility: visible;
+    }
+}

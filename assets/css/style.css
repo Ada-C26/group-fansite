@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Celestia';
+    src: url('../fonts/celestia/celestiamedium.ttf');
+}
+
+/* 
+Color scheme
+#cc9cdf 	(204,156,223)
+#243870 	(36,56,112)
+#652d87 	(101,45,135)
+#ea428b 	(234,66,139)
+#1e093c     (30,9,60) 
+*/
+
+/* * {
+    box-sizing: border-box;
+} */
+
+/* General styles */
+
+body {
+    background-image: url("../img/gallery/galaxy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1e093c;
+    color: #cc9cdf;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a:hover {
+    cursor: url('../img/my-little-pony-spike-pointer.png'), pointer;
+}
+
+/* Layout container styles */
+
+#main-header, main, footer {
+    margin: 0 auto;
+    padding: 1rem;
+    width: auto;
+    max-width: 1056px;
+}
+
+#main-header {
+    padding-bottom: 0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    border-bottom: none;
+}
+
+main, footer {
+    background-color: #243870;
+    border: 1px solid #4b3072;
+}
+
+main {
+    border-top: none;
+    border-bottom: none;
+    color: #ac6fc4;
+}
+
+main { background-color: #deccde;}
+
+footer {
+    border-radius: 0 0 0.25rem 0.25rem;
+    border-top: none;
+}
+
+/* Header / logo styles */
+
+#main-header h1 {
+    font-size: 5rem;
+    color: #ea428b;
+    padding: 2rem 0;
+    height: calc(128px - 2rem);
+    text-shadow: 2px 2px 5px #141414;
+    
+}
+
+#main-header small {
+    display:block;
+    font-size: 2rem;
+    padding: 0 2.5rem;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    float:right;
+    image-rendering: pixelated;
+    max-width: 30%;
+}
+
+/* Navigation styles */
+
+nav {
+    background-color: #ea428b;
+    margin: 0 -1rem;
+    padding: 0 1rem;
+    border: 1px solid #4b3072;
+    border-bottom: none;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li.active > strong {
+    background-color: #243870;
+}
+
+nav > ul > li > a,
+nav > ul > li > strong {
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+    color: #243870;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+    background-color: #f068a4;
+}
+
+/* Content styles */
+
+article > header {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1 {
+    font-family: 'Celestia', serif;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+/* Footer styles */
+
+footer p {
+    font-style: italic;
+    text-align: center;
+}
+
+#corner-peek {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #main-header h1 {
+        font-size: 2.5rem;
+        padding: 0;
+        height: auto;
+    }
+    #main-header small {
+        font-size: 1rem;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #corner-peek {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        padding: 0;
+    }
+
+    nav > ul > li {
+        flex-grow: 1;
+    }
+
+    nav > ul > li > a,
+    nav > ul > li > strong {
+        display: block;
+        text-align: center;
+    }
+}
