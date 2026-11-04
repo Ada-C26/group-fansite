@@ -1,0 +1,65 @@
+main {
+    margin-top: 50px;
+}
+
+body {
+    margin: 25px;
+}
+
+main p {
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Quick Rules list */
+
+
+.quick-rules ul {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.quick-rules li {
+    margin-bottom: 12px;
+}
+
+.quick-rules li::before,
+.contact-us h2::before {
+    content: "🏸 ";
+}
+
+.quick-rules {
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 12px;
+    padding: 0px;
+    margin: 24px auto;
+    max-width: 1000px;
+}
+
+
+.contact-us {
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.contact-us h2 {
+    font-size: 1.2rem;
+}
+
+.contact-us h2::after {
+    content: " 🏸";
+}
+
+.contact-us p {
+    font-size: 0.9rem;
+}
