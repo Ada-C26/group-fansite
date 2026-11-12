@@ -1,0 +1,75 @@
+main li {
+    line-height: 1.5;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    padding-left: 2.5rem;
+}
+
+.chiikawa,
+.Hachiware,
+.Usagi {
+    padding: 25px;
+    border: 2px solid;
+    border-color: rgb(119, 188, 245);
+    border-radius: 15px;
+    line-height: 1.6;
+    background-color: #f5f8ff;
+    margin-bottom: 20px;
+    }
+
+.chiikawa ol,
+.Hachiware ol,
+.Usagi ol {
+    text-align: left;
+    padding-left: 20px;
+}    
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    padding: 25px;
+}
+
+.facts li {
+    overflow-wrap: break-word;
+}
+
+.facts img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+p, h2, section {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+}    
+
+
+@media (max-width: 1000px) {
+    .facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 750px) {
+    .facts {
+        grid-template-columns: 1fr;
+    }
+}
